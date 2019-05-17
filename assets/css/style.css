@@ -1,0 +1,50 @@
+
+body {
+	font-family: 'Merriweather', serif;
+	line-height: 1.6;
+}
+
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.ashiish-content {
+	position: relative;
+}
+
+.ashiish-content h1 {
+	text-align: center;
+}
+
+.ashiish-tooltip {
+	display: none;
+	position: absolute;
+	background: #000;
+	padding: 0.5rem;
+	color: #FFF;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+}
+
+.ashiish-tooltip span {
+	padding: 0 0.5rem;
+	font-weight: bold;
+}
+
+.ashiish-tooltip:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	border-width: 7px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.ashiish-tooltop--active {
+	display: inline-block;
+	visibility: visible;
+	transition: top 75ms ease-out, left 75ms ease-out;
+}
