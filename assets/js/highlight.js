@@ -1,7 +1,7 @@
 "use strict";
 
 let ashiish_content = document.querySelector(".ashiish-content");
-let tooltip = document.querySelector('.ashiish-tooltip');
+let tooltip = document.querySelector(".ashiish-tooltip");
 let selectedTextWidth, selectedTextHeight;
 
 const selectText = function(e) {
